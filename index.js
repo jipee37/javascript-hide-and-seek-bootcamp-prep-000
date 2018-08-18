@@ -25,7 +25,7 @@ function deepestChild(){
 	//    if(current.childElementCount === 0) return current
 	//    current = current.firstElementChild
   // }
-  divs = current.querySelectorAll('div')
+  const divs = current.querySelectorAll('div')
   // for(let i=0; i< divs.length; ++i){
 	//    currentDiv = divs[i]
   // }
