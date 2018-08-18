@@ -21,8 +21,13 @@ function deepestChild(){
   // 	  current = current.children[0]
   // }
   // return arr[arr.length-1]
-  while(current){
-	   if(current.childElementCount === 0) return current
-	   current = current.firstElementChild
-  }
+  // while(current){
+	//    if(current.childElementCount === 0) return current
+	//    current = current.firstElementChild
+  // }
+  divs = current.querySelectorAll('div')
+  // for(let i=0; i< divs.length; ++i){
+	//    currentDiv = divs[i]
+  // }
+  return divs[divs.length-1]
 }
